@@ -3,10 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project</title>
+    <title>projectWeb</title>
     <link rel="stylesheet" href="web1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="web1.js"></script>
 </head>
 <body>
-    <h1>ProjectWeb</h1>
+    
+    <div id="box"></div>
+    <div class="wrapper">
+        <h2>login</h2>
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="Username">
+                <i class='bx bxs-user-pin'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password">
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="remember-forgot">
+                <label for=""><input type="checkbox">Remember me</label>
+                <a href="#">lupa password?</a>
+            </div>
+            <button type="submit" class="btn">login</button>
+
+            <div class="register">
+                <p>gak punya akun ?<a href="#">Daftar</a></p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
